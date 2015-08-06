@@ -1,0 +1,138 @@
+<!doctype html>
+	<html>
+		<head>
+			<title> Index </title>
+			<meta charset="utf-8">
+			<link href="imagenes/favicon.ico" rel="shortcut icon"><!--favicon-->
+			<link href="css/estilos.css" rel="stylesheet"> <!--css-->
+			<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' /><!--fuente de los posts-->
+			<meta name="keywords" content="reef,acuario marino,peces,corales,arrecife,ReefArG"><!--meta tags para google-->
+			<meta name="description" content="Informacion esencial para el mantenimiento de acuarios de arrecife, peces,corales"><!--meta tags para google-->
+			<meta name="author" content="mtorre4580"><!--meta tags para google-->
+			<meta name= "robots" content="noindex,nofollow"><!--etiqueta para que no me indexe en google, despues sacarla cuando esta completo el sitio-->
+			<script  src="js/jquery-1.11.0.min.js"></script><!--jquery-->
+			<script src="js/lightbox.min.js"></script>
+			<script><!--script para el slider-->
+			var i = 0;
+			$(document).on("ready", main);
+
+			function main()
+			{
+			var control = setInterval(cambiarSlider, 3000);
+			}
+			function cambiarSlider()
+			{
+			i++;
+			if(i == $("#slider img").size())
+			{
+				i = 0;
+			}
+			$("#slider img").hide();
+			$("#slider img").eq(i).fadeIn("medium");
+			}
+			</script>
+		</head>
+		<body>
+		<div id="contenedor">
+			<div id="titulo">
+			<h1><a href="index.html">ReefArG</a></h1>
+			</div>
+			<nav id="menu"><!--semantica html-->
+			<ul>
+				<li><a href="peces.html">Peces</a></li>
+				<li><a href="corales.html">Corales</a></li>
+				<li><a href="invertebrados.html">Invertebrados</a></li>
+				<li><a href="filtracion.html">Filtracion </a></li>
+				<li><a href="galeria.html">Galeria</a></li>
+				<li><a href="registro.html">Registrarse</a></li>
+			</ul>
+			</nav> 
+			<div class="borde"><!--div para la linea negrita sino queda medio feo--></div>
+			<div id="slider">
+			<img src="imagenes/divisa.jpg" alt="divisa-reefarg">
+			<img src="imagenes/sps.jpg" alt="sps-reefarg">
+			<img src="imagenes/payasin.jpg" alt="payaso-reefarg">
+			<img src="imagenes/sarco.jpg" alt="blando-reefarg">
+			</div><!--cierro el slider-->
+			<div id="titulo_ultimospost">
+			<h1>Últimos Artículos </h1>
+			</div>
+			<div id="lado1">
+			</div><!--esta creado para centrar los posts hay 2 iguales lado2 tmb-->
+			<div class="view view-first">
+			<img src="imagenes/payaso.jpg" alt="payaso-ReefArG">
+				<div class="mask">
+				<h2>Amphiprion ocellaris</h2>
+				<p>
+				Pez Payaso, Falso Pércula, Pez Anémona.<br>
+				El agua debe tener los parámetros aceptables de un acuario de peces ó arrecife.De juveniles pueden estar en acuarios de hasta 50 litros mientras tengan...
+				</p>
+				<a href="#" class="info">Leer Mas</a>
+				</div><!--cierro la mask-->
+			</div>  
+			<div class="view view-first">
+			<img src="imagenes/coralduro.jpg" alt ="sps-ReefArG">
+				<div class="mask">
+				<h2>SPS</h2>
+				<p>Son todos aquellos corales que forman los arrecifes con sus esqueletos calcáreos cuando fallecen. Nuevas colonias comienzan entonces a expandirse sobre estos restos formando ...</p>           
+				<a href="#" class="info">Leer Mas</a>
+				</div><!--cierro la mask-->
+			</div>  
+			<div class="view view-first">
+			<img src="imagenes/anemona.jpg" alt="anemona-ReefArG">
+				<div class="mask">
+				<h2>Entacmaea quadricolor</h2>
+				<p>Esta anémona se caracteriza por tener en la mayoría de ejemplares (aunque no en todos) tentáculos con un bulto (o pequeño globo) cerca de la punta, que en ocasiones pueden ser fosforescentes con un tono rojizo.</p>    
+				<a href="#" class="info">Leer Mas</a>
+				</div><!--cierro la mask-->
+			</div>  
+			<div id="lado2">
+			</div><!--esta creado para centrar los posts hay 2 iguales lado2 tmb-->
+			<div id="principiantes">
+				<div id="info">
+				<h2>Primeros Pasos</h2>
+				<p>
+				Lo primero que hay que pensar es el tipo de acuario.</p>
+				<br><br><br>
+					<ul>
+					<li> <strong>Solo Peces</strong></li>
+					<li><strong>Invertebrados</strong> </li>
+					<li><strong>Arrecife ó Reef</strong>.</li>
+					</ul>
+				<br>
+				<p>
+				El acuario de solo peces:<br>
+				En este caso, todo se basa en el modo de vida y el bienestar de los peces. La elección de las especies es importante.
+				Los peces de arrecifes coralinos son en general muy territoriales, por lo que el decorado debe ofrecer abundantes huecos y escondites que permitan buscar refugio a los peces perseguidos.
+				Para el principante, un acuario espcífico de este tipo será mas facil y menos costoso de manejar que un acuario que contega invertebrados y corales.
+				</p><br>
+				<p>
+				El acuario de invertebrados:<br>
+				Los equinodermos, pueden ser vegetarianos como algunos erizos, o carnívoros como las estrellas de mar y son fáciles de criar en este tipo de acuarios. 
+				Otros animales, como los camarones tropicales o las gambas, conviven bien y aportan considerable diversidad al acuario de invertabrados. Los gusanos tubícolas y las anémonas añaden un agradable toque decorativo al conjunto. 
+				Tambien se puede albergar ciertas algas.
+				</p><br>
+				<p>
+				El acuario de arrecife:<br>
+				Un acuario de arricife tropical es el reflejo casi exacto de la vida en un ecosistema coralino.
+				Se exigen muchos mas cuidados y mantenimiento que los otros dos tipos. Conviene empezar poco a poco y esperar un año hasta que el acuario este estabilizado,
+				para evitar pérdidas ecónómicas en caso de que no salga tal y como se esperaba.
+				</p><br>
+				</div>
+			</div><!--cierro el div de principiantes-->
+			<!--redes sociales -->
+			<a href="https://twitter.com/mtorre4580" style='display:scroll;position:fixed;bottom:330px;right:0px;' target='_blank'><img  src='imagenes/boton_twitter.png' title='Seguirnos en Twitter' alt="twitter reefarg"></a>
+			<a href='https://www.facebook.com/matias.torre.58' style='display:scroll;position:fixed;bottom:185px;right:0px;' target='_blank'><img src='imagenes/boton_facebook.png' title='Seguirnos en Facebook' alt="facebook reefarg"></a>
+			<a href='https://plus.google.com/u/0/114922091804415561905/posts' style='display:scroll;position:fixed;bottom:41px;right:0px;' target='_blank'><img  src='imagenes/googlefeo.png' title='Seguirnos en Google+' alt="google reefarg"></a>
+			<div id="pie">
+			<p>
+			&copy; 2014 ReefArG<br>
+			Todos los derechos reservados.
+			</p>
+			</div><!--cierro el pie-->
+		</div><!--cierro el contenedor-->
+		
+		</body>	
+	
+		
+	</html>

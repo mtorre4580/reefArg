@@ -1,0 +1,53 @@
+User-agent: *
+
+Disallow: /js/
+
+
+Disallow: /css/
+
+
+Disallow: /SpryAssets/
+
+Disallow: /m/
+Allow: /
+
+
+
+
+User-agent: Googlebot
+
+Disallow: /images/
+
+Disallow: /js/
+
+Disallow: /SpryAssets/
+
+Disallow: /css/
+
+Disallow: /m/
+
+
+
+Allow: /
+
+User-agent: Googlebot-Image
+
+Allow: /images/
+
+Disallow: /js/
+
+Disallow: /css/
+
+Disallow: /SpryAssets/
+
+Disallow: /m/
+
+User-agent: Googlebot-Mobile
+Allow: /m/
+Disallow: /
+Disallow: /js/
+
+Disallow: /css/
+
+Disallow: /SpryAssets/
+
