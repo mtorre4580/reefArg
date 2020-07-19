@@ -1,5 +1,6 @@
 # reefArg
-Pagina web, reef aquarium, se utiliza js,html,css,jquery,php
 
-------
-Website, reef aquarium, is used js, html, css, jquery, php
+The first page that was made.
+Website on marine aquariums, it was developed with HTML, CSS, JS, PHP
+
+[https://mtorre4580.github.io/reefArg/](https://mtorre4580.github.io/reefArg/)
